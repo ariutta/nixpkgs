@@ -1,4 +1,6 @@
-{ lib, fetchFromGitHub, buildGoPackage }:
+{ stdenv, fetchFromGitHub, buildGoPackage }:
+
+with stdenv;
 
 buildGoPackage rec {
   name = "java-buildpack-memory-calculator${version}";

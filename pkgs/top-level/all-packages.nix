@@ -12620,6 +12620,8 @@ with pkgs;
 
   gwtwidgets = callPackage ../development/libraries/java/gwt-widgets { };
 
+  java-buildpack-memory-calculator = callPackage ../development/tools/java/java-buildpack-memory-calculator {  };
+
   javaCup = callPackage ../development/libraries/java/cup { };
 
   jdom = callPackage ../development/libraries/java/jdom { };
