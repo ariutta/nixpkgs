@@ -22127,6 +22127,8 @@ with pkgs;
 
   thinkfan = callPackage ../tools/system/thinkfan { };
 
+  tosheets = callPackage ../applications/misc/tosheets/default.nix { };
+
   tup = callPackage ../development/tools/build-managers/tup { };
 
   trufflehog = callPackage ../tools/security/trufflehog { };
